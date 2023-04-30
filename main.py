@@ -4,12 +4,15 @@ from classes.Level import Level
 from classes.Menu import Menu
 from classes.Sound import Sound
 from entities.Mario import Mario
-
+from pcg_mario import *
 
 windowSize = 640, 480
 
 
 def main():
+
+    #proceduralGeneration('levels\PCG.json')
+
     pygame.mixer.pre_init(44100, -16, 2, 4096)
     pygame.init()
     screen = pygame.display.set_mode(windowSize)
@@ -39,6 +42,8 @@ def main():
 
 
 if __name__ == "__main__":
+    
+ #   writeLevel()
     exitmessage = 'restart'
     while exitmessage == 'restart':
         exitmessage = main()
