@@ -5,6 +5,7 @@ This is inspired by Meth-Meth-Method's [super mario game](https://github.com/met
 ## Running
 
 * $ pip install -r requirements.txt
+* $ python pcg_mario.py
 * $ python main.py
 
 ## Standalone windows build
@@ -29,4 +30,4 @@ This is inspired by Meth-Meth-Method's [super mario game](https://github.com/met
 
 ## Contribution
 
-Added Basic Procedural Generation w/ Cellular Automata for basic game, Perlin Noise for Pipes and created ground by expanding froma random seed.
+Added Basic Procedural Generation w/ Cellular Automata for basic game structure, Perlin Noise for Pipes and created ground by expanding froma randomly initialized seed.
